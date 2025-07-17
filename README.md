@@ -134,3 +134,25 @@ curl -X POST http://127.0.0.1:5000/pasien/ \
 ---
 
 ## ✅ Status: Selesai ✅
+
+## 📷 Screenshots
+
+### 🔐 Register & Login
+| Register | Login |
+|---------|-------|
+| ![Register](screenshots/register.png) | ![Login](screenshots/login.png) |
+
+---
+
+### 📝 Tambah Data Pasien & Upload KTP
+| Tambah Pasien | Upload KTP |
+|---------------|------------|
+| ![Regis](screenshots/regis_pasien.png) | ![Upload](screenshots/upload_berkas.png) |
+
+---
+
+### 📖 Lihat, Edit, dan Hapus Data Pasien
+| Lihat Pasien (GET) | Edit Pasien | Hapus Pasien |
+|--------------------|-------------|---------------|
+| ![GET](screenshots/get_pasien.png) | ![Edit](screenshots/edit_pasien.png) | ![Delete](screenshots/delete_pasien.png) |
+
