@@ -1,3 +1,54 @@
+# Bytecode & Cache Python
+__pycache__/
+*.pyc
+
+# Database & Backup
+*.db
+*.sqlite
+*.sqlite3
+
+# Virtual Environment
+venv/
+
+# Folder Uploads (berisi file upload user)
+uploads/
+
+# Abaikan semua file gambar & dokumen umum
+*.jpg
+*.jpeg
+*.pdf
+*.zip
+
+# Abaikan semua file PNG secara default
+*.png
+
+# Tapi IZINKAN folder screenshots dan file PNG di dalamnya
+!screenshots/
+!screenshots/*.png
+
+# Izinkan file .gitkeep jika diperlukan
+!__pycache__/.gitkeep
+!uploads/.gitkeep
+!venv/.gitkeep
+!screenshots/.gitkeep
+__pycache__/
+*.pyc
+*.db
+*.sqlite
+*.sqlite3
+venv/
+uploads/
+*.jpg
+*.jpeg
+*.png
+*.pdf
+*.zip
+
+# Abaikan semua .png, kecuali di folder screenshots
+*.png
+screenshots/
+!screenshots/
+!screenshots/*.png
 __pycache__/
 *.pyc
 *.db
